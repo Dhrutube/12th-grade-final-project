@@ -1,0 +1,14 @@
+create database sleeptracker;
+use sleeptracker;
+create table user(
+userid int primary key auto_increment,
+password varchar(20),
+name varchar(20)
+age int,
+BMI int);
+create table tracker(
+weekno int,
+useid int,
+day int,
+hours int,
+quality int);
